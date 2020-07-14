@@ -1,0 +1,171 @@
+{
+  "version": null,
+  "displayName": "Gtmhub",
+  "type": "gtmhub",
+  "logo": "gtmhub.png",
+  "logoSmall": "gtmhub-small.png",
+  "metadata": [
+    {
+      "name": "issuetype",
+      "dependent": false,
+      "dependentMetadata": null,
+      "values": [
+        {
+          "id": "tasks",
+          "name": "Tasks",
+          "attributeName": null,
+          "referenceType": null,
+          "dependents": null,
+          "regex": false
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "id": "modifiedAt",
+      "name": "Modified Date",
+      "datatype": "Datetime",
+      "values": null
+    },
+    {
+      "id": "description",
+      "name": "Description",
+      "datatype": "PlainText",
+      "values": null
+    },
+    {
+      "id": "externalId",
+      "name": "External Id",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "ownerId",
+      "name": "Owner",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "priority",
+      "name": "Priority",
+      "datatype": "Number",
+      "values": null
+    },
+    {
+      "id": "parentId",
+      "name": "Parent",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "parentType",
+      "name": "Parent Type",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "externalSystem",
+      "name": "External System",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "accountId",
+      "name": "Account Id",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "taskType",
+      "name": "Task Type",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "dateCreated",
+      "name": "Created Date",
+      "datatype": "Datetime",
+      "values": null
+    },
+    {
+      "id": "modifiedById",
+      "name": "Modified By",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "id",
+      "name": "Id",
+      "datatype": "String",
+      "values": null
+    },
+    {
+      "id": "status",
+      "name": "Status",
+      "datatype": "String",
+      "values": [
+        {
+          "id": "todo",
+          "name": "To-do",
+          "attributeName": null,
+          "referenceType": null,
+          "dependents": null,
+          "regex": false
+        },
+        {
+          "id": "inprogress",
+          "name": "In progress",
+          "attributeName": null,
+          "referenceType": null,
+          "dependents": null,
+          "regex": false
+        },
+        {
+          "id": "done",
+          "name": "Done",
+          "attributeName": null,
+          "referenceType": null,
+          "dependents": null,
+          "regex": false
+        }
+      ]
+    }
+  ],
+  "loginOptions": [
+    "accountId",
+    "Authorization"
+  ],
+  "idFieldName": "id",
+  "titleFieldName": "name",
+  "projectFieldName": "",
+  "artifactFieldName": "",
+  "testStepsFieldName": null,
+  "changedDateFieldName": "modifiedAt",
+  "dateFormat": "yyyy-MM-dd",
+  "dateTimeFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSz",
+  "queryDateFormat": "yyyy-MM-dd'T'HH:mm:ss.SSSz",
+  "iso8601DateFormat": false,
+  "commentFieldName": "",
+  "commentFieldId": "",
+  "attachmentFieldName": "",
+  "attachmentFieldId": "",
+  "apiVersion": null,
+  "callBackUrlConfigured": false,
+  "callBackUrls": null,
+  "apiProvider": "ExternalApplication",
+  "applicationType": null,
+  "urlDescription": "",
+  "userNameDescription": "",
+  "passwordDescription": "",
+  "paginationSupported": false,
+  "paginationAttributes": null,
+  "status": "Active",
+  "active": true
+}

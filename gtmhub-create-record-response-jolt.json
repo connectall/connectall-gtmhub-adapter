@@ -1,0 +1,25 @@
+[
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "revisions": "=size(@(1,snapshots))",
+      "lastRevision": "=lastElement(@(1,snapshots))"
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "id": "id",
+      "customFields": {
+        "*": "fields.&"
+      },
+      "lastRevision": {
+        "*": {
+          "modifiedAt": "fields.&"
+        }
+      },
+      "@lastRevision.modifiedAt": "fields.modifiedAt",
+      "*": "fields.&"
+    }
+  }
+]

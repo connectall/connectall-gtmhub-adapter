@@ -1,0 +1,30 @@
+[
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "items": {
+        "*": {
+          "revisions": "=size(@(1,snapshots))",
+          "firstRevision": "=firstElement(@(1,snapshots))",
+          "lastRevision": "=lastElement(@(1,snapshots))"
+        }
+      }
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "items": {
+        "*": {
+          "id": "result.[&1].id",
+          "customFields": {
+            "*": "result.[&2].fields.&"
+          },
+          "@lastRevision.modifiedAt": "result.[&1].fields.modifiedAt",
+          "*": "result.[&1].fields.&"
+        }
+      },
+      "totalCount": "totalrecords"
+    }
+  }
+]

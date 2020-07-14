@@ -1,0 +1,13 @@
+[{
+  "operation": "shift",
+  "spec": {
+    "number": "id",
+    "title": "fields.title",
+    "body": "fields.body"
+  }
+}, {
+  "operation": "modify-overwrite-beta",
+  "spec": {
+    "id": "=toString"
+  }
+}]
