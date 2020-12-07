@@ -2,7 +2,7 @@
 
 ConnectALL Gtmhub Adapter is developed as an extension to the Universal adapter capability of ConnectALL. This adapter specifications will let the user use Gtmhub with Webhooks to read and write the data in to Gtmhub.
 
-Please refere https://wiki.connectall.com/ca/latest/user-guide/adapters/custom-application-adapter for more information
+Please refer to https://wiki.connectall.com/ca/latest/adapters/universal-adapter for more information
 
 # Usecase
 
